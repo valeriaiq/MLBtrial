@@ -341,4 +341,4 @@ plot(latest_rays_score, xlab = "Tiempo", ylab ="Carreras anotadas", main ="Serie
      sub = "Serie anual: 2010 a 2018"); abline(reg = lm(latest_rays_score ~ latest_rays_time))
 
 
-```` R
+```` 
