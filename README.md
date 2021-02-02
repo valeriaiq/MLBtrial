@@ -29,11 +29,10 @@ str(pitchers_2019)
 mlb_2020 <- mutate(mlb_2020, date = as.Date(date, "%Y-%m-%d"))
 mlb_historic <- mutate(mlb_historic, date = as.Date(date, "%Y-%m-%d"))
 ````
-# Se analizarán 4 equipos, los que compitieron en las series mundiales de 2019 y 2020 del Archivo mlb_elo.csv
-# En 2019 la Serie Mundial se jugó entre los Washington Nationals y los Houston Astros, siendo The Washington Nationals el equipo ganador
-# En 2020 La Serie Mundial se jugó entre Los Angeles Dodgers y Tampa Rays, donde Los Angeles Dodgers resultaron ganadores
-# Therefore, the aim of this work is to show whether there was any relationship between the COVID-19 pandemic and the performance of the teams taken as subject of study.
-#
+Se analizarán 4 equipos, los que compitieron en las series mundiales de 2019 y 2020 del Archivo mlb_elo.csv
+En 2019 la Serie Mundial se jugó entre los Washington Nationals y los Houston Astros, siendo The Washington Nationals el equipo ganador
+En 2020 La Serie Mundial se jugó entre Los Angeles Dodgers y Tampa Rays, donde Los Angeles Dodgers resultaron ganadores
+Therefore, the aim of this work is to show whether there was any relationship between the COVID-19 pandemic and the performance of the teams taken as subject of study.
 
 ``` R
 
